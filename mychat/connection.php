@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "ish";
+$dbname = "mychat1";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
@@ -14,7 +14,7 @@ if($conn)
 
 <script>
 
-alert('Connection Successful');
+//alert('Connection Successful');
 </script>
 <?php
 
@@ -25,7 +25,7 @@ else
 //echo "Connection Unuccessful";
 <script>
 
-alert('Connection Unuccessful');
+//alert('Connection Unuccessful');
 </script>
 <?php
 }
